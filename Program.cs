@@ -7,7 +7,7 @@ namespace Jenkins101
         static void Main(string[] args)
         {
             Console.WriteLine("Hello Wooooorld!");
-            bad code here
+            //bad code here
         }
     }
 }
