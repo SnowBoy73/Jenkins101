@@ -6,7 +6,7 @@ pipeline {
     stages{
       stage("Build") {
         steps {
-            sh "dotnet build /src/Jenkins101/Jenkins101/Jenkins101.csproj"
+	      sh "dotnet build Jenkins101.sln"
               unstable	"Build phase not implemented"
         }
       }
